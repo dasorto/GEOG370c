@@ -7,23 +7,72 @@
 </head>
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
+    <h1>Alex Sorto</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>In order to display the different projections in QGIS, I first imported the vector layer from Natural Earth of all countries provided. Then I would go to the bottom right corner in QGIS and press the button besides messages. 
+        There you can change the different projections and click okay to the one you want searching by code or name. 
+    </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>We can see that the distorted areas are closer to the top and bottom. 
+        The map is stretched in those areas.
+    </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection shows how the map is wrapped or folded in the top and bottom.
+        Thus, the circles move in position.
+    </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    <p></p>
+    <h2>Pseudo-Mercator Projection</h2>
+    <h3>The Pseudo-Mercator Projection shows how countries in the top and bottom are stretched or shown bigger.
+        For example, we can see that Greenland is about the size of Africa.
+    </h3>
+    <a href=".//maps/Pseudo mercator3857.png">
+    <img src=".//maps/Pseudo mercator3857.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Sphere Winkle Projection</h2>
+    <h3>This projection is interesting since it folds almost perfectly like a rhombus.
+        Thus, the circles are bigger in the top and bottom.
+    </h3>
+    <a href=".//maps/53018 Winkle.png">
+    <img src=".//maps/53018 Winkle.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>World Cylindrical Equal Area Projection</h2>
+    <h3>This projection shows how the edges in the top and bottom are crushed or made smaller.
+
+    </h3>
+    <a href=".//maps/54034.png">
+    <img src=".//maps/54034.png" alt="WGS84" width='500px'>
+    
+</a><h2>World Equidistant Conic Projection</h2>
+    <h3>In this projection we can see from a view from a top the globe, 
+        and how the farther from the center the countries are smaller and more stretched.</h3>
+    <a href=".//maps/54027.png">
+    <img src=".//maps/54027.png" alt="WGS84" width='500px'>
+    </a><h2>North Pole Azimuthal Projection</h2>
+    <h3>This projection looks like the last projection but this one has a different view from a top 
+        and is even more stretched farther from the center.
+    </h3>
+    <a href=".//maps/102016.png">
+    <img src=".//maps/102016.png" alt="WGS84" width='500px'>
+    </a><h2>Sphere Eckert 2 Projection</h2>
+    <h3>This projection is similar to the Sphere Winkle Projection but its shape is more like a rhombus 
+        or trapezoid.
+    </h3>
+    <a href=".//maps/53014.png">
+    <img src=".//maps/53014.png" alt="WGS84" width='500px'></a>
+    <h2>World Eckert 3 Projection</h2>
+<h3>The World Eckert 3 Projection represents a cylinder and the farther away from the center a coutry is, 
+    the more stretched the map is there.
+</h3>
+<a href=".//maps/54013.png">
+<img src=".//maps/54013.png" alt="WGS84" width='500px'>
+    </a>
+    
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
